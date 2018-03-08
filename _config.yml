@@ -1,5 +1,8 @@
-title: Hacker theme
-description: Hacker is a theme for GitHub Pages.
-show_downloads: true
+title: Sergi Beltran
+description:
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-hacker
+
+footer-links:
+  linkedin: sergi-beltran-71786a151/

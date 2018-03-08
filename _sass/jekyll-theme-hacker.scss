@@ -10,7 +10,7 @@ $blockquote-border: $dove-grey !default;
 body {
   margin: 0;
   padding: 0;
-  background: $body-background url("../images/bkg.png") 0 0;
+  background-color: black;
   color: $body-foreground;
   font-size: 16px;
   line-height: 1.5;
@@ -64,6 +64,10 @@ header h1 {
                0 0 10px rgba(181, 232, 83, 0.1);
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
+  a {
+    color: $conifer;
+    text-decoration: none;
+  }
 }
 
 header h1:before {
@@ -149,7 +153,7 @@ blockquote {
 }
 
 pre {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(26, 26, 26, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 10px;
   font-size: 16px;
@@ -234,7 +238,6 @@ hr {
 
 a {
   color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
 /* Clearfix */
@@ -250,4 +253,12 @@ a {
 
 .cf {
   zoom:1;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding: 1em;
+  width: 100%;
 }
